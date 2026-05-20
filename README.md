@@ -78,6 +78,27 @@ VITE_API_URL=http://localhost:5000/api
 
 ## Railway Deployment
 
+### Option A - Single Railway Service From Repo Root
+
+Use this if Railway does not show a root directory setting. The repo root now builds the frontend and starts the Express backend, and Express serves the frontend from `frontend/dist`.
+
+1. Create a new Railway project from this GitHub repository.
+2. Do not set a root directory.
+3. Add environment variables:
+
+```env
+MONGO_URI=mongodb+srv://...
+JWT_SECRET=replace_with_a_long_random_secret
+FRONTEND_URL=https://your-railway-app-url.up.railway.app
+PORT=5000
+```
+
+4. Deploy.
+5. After Railway gives the public app URL, update `FRONTEND_URL` to that same URL and redeploy.
+6. Open the public URL. The API health check is available at `/api/health`.
+
+### Option B - Separate Backend and Frontend Services
+
 ### 1. Push to GitHub
 
 ```bash
