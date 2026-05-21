@@ -215,9 +215,19 @@ taskmanager/
 Add final screenshots after deployment:
 
 - Login or signup page
+  <img width="1029" height="851" alt="image" src="https://github.com/user-attachments/assets/0e7b5826-9824-4f02-9cb3-b816f2130786" />
+
 - Projects list
+  <img width="1912" height="911" alt="image" src="https://github.com/user-attachments/assets/fe7ff3f1-cec6-4123-a121-c20089f9376d" />
+
 - Kanban board with task filters
+  <img width="1908" height="1075" alt="image" src="https://github.com/user-attachments/assets/6ed1d9e5-7065-4a80-8021-72a42dc9b833" />
+
 - Dashboard charts and activity timeline
+  <img width="1874" height="1047" alt="image" src="https://github.com/user-attachments/assets/53c6e0e1-456a-4069-8043-c197605e33d8" />
+
+  <img width="1912" height="911" alt="image" src="https://github.com/user-attachments/assets/f9cf7e71-151c-4abc-8589-08cb445283ee" />
+
 
 ## Interview Q&A
 
