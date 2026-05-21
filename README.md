@@ -188,4 +188,5 @@ frontend/
 
 # Author
 
-Krishna Koushik
+Krishna Koushik Chitra 
+
